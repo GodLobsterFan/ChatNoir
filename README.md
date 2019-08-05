@@ -1,5 +1,5 @@
 # ChatNoir
-Clears out visual eyesores from KoL's in game chat.
+Clears out visual eyesores from Kingdom of Loathing's in-game chat.
 
 To install it, just type this into KoLMafia's CLI. 
 
