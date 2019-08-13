@@ -12,7 +12,7 @@ function clean(x)
 	// Disable safari noises
 	x["msg"] = x["msg"].replace(/<i title="(.*?)">.*?<\/i>/gi, "$1");
 	// Force chat colours to be black
-	x["msg"] = x["msg"].replace(/font color=\w*>/gi, 'font color=black>').replace(/color: #\w+/gi, "color: #000000").replace(/font-weight: \w+/gi, "font-weight: normal");
+	x["msg"] = x["msg"].replace(/color(=|:) ?#?[a-zA-Z0-9]+/gi, 'color=black').replace(/font-weight: \w+/gi, "font-weight: normal");
 
 	handleMessage(x);
 }
